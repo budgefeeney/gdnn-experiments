@@ -1,0 +1,113 @@
+[I 2021-05-23 17:05:58.672 ServerApp] jupyterlab | extension was successfully linked.
+[I 2021-05-23 17:05:58.831 ServerApp] nbclassic | extension was successfully linked.
+[I 2021-05-23 17:05:58.867 LabApp] JupyterLab extension loaded from /home/bfeeney/anaconda3/envs/tfgpu/lib/python3.8/site-packages/jupyterlab
+[I 2021-05-23 17:05:58.867 LabApp] JupyterLab application directory is /home/bfeeney/anaconda3/envs/tfgpu/share/jupyter/lab
+[I 2021-05-23 17:05:58.869 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2021-05-23 17:05:58.872 ServerApp] nbclassic | extension was successfully loaded.
+[I 2021-05-23 17:05:58.872 ServerApp] Serving notebooks from local directory: /home/bfeeney/Documents/GitHub/gdnn-experiments
+[I 2021-05-23 17:05:58.872 ServerApp] Jupyter Server 1.4.1 is running at:
+[I 2021-05-23 17:05:58.872 ServerApp] http://localhost:8888/lab?token=69e1ee1086b306e978813e686e2fa197417fd4e65ab5c117
+[I 2021-05-23 17:05:58.872 ServerApp]  or http://127.0.0.1:8888/lab?token=69e1ee1086b306e978813e686e2fa197417fd4e65ab5c117
+[I 2021-05-23 17:05:58.872 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2021-05-23 17:05:58.896 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/bfeeney/.local/share/jupyter/runtime/jpserver-14020-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=69e1ee1086b306e978813e686e2fa197417fd4e65ab5c117
+     or http://127.0.0.1:8888/lab?token=69e1ee1086b306e978813e686e2fa197417fd4e65ab5c117
+[W 2021-05-23 17:06:04.086 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2021-05-23 17:06:05.169 ServerApp] Notebook Deep Learning 3.1 - Ganimals.ipynb is not trusted
+[W 2021-05-23 17:06:05.250 ServerApp] Notebook Deep Learning 2.1 - VAEs.ipynb is not trusted
+[I 2021-05-23 17:06:06.170 ServerApp] Kernel started: 4fd3c19c-347c-4354-acaf-3ba75e51da97
+[I 2021-05-23 17:06:06.182 ServerApp] Kernel started: a5687b20-91b1-44e0-ab0d-89f451419020
+[I 2021-05-23 17:06:06.886 ServerApp] Kernel started: 3b653490-0080-41e1-8416-8a11d06ef106
+[I 2021-05-23 17:06:12.459 ServerApp] Saving file at /Deep Learning 3.1 - Ganimals.ipynb
+2021-05-23 17:06:17.210858: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-05-23 17:06:30.460941: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-05-23 17:06:30.463884: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2021-05-23 17:06:32.054723: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-23 17:06:32.055088: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2080 Super with Max-Q Design computeCapability: 7.5
+coreClock: 1.08GHz coreCount: 48 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 327.88GiB/s
+2021-05-23 17:06:32.055114: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-05-23 17:06:32.060970: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-05-23 17:06:32.061003: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-05-23 17:06:32.065148: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-05-23 17:06:32.066671: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-05-23 17:06:32.072470: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-05-23 17:06:32.074063: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-05-23 17:06:32.074540: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-05-23 17:06:32.074602: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-23 17:06:32.074974: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-23 17:06:32.075459: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-05-23 17:06:32.075660: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-05-23 17:06:32.542229: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-05-23 17:06:32.542258: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2021-05-23 17:06:32.542265: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2021-05-23 17:06:32.542786: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-23 17:06:32.543193: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-23 17:06:32.543537: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-23 17:06:32.543863: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7247 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Super with Max-Q Design, pci bus id: 0000:01:00.0, compute capability: 7.5)
+[I 2021-05-23 17:08:13.404 ServerApp] Saving file at /Deep Learning 3.1 - Ganimals.ipynb
+[I 2021-05-23 17:11:03.715 LabApp] 302 GET /lab/tree/Deep%20Learning%203.1%20-%20Ganimals.ipynb (127.0.0.1) 0.64ms
+[I 2021-05-23 17:16:13.986 ServerApp] Saving file at /Deep Learning 3.1 - Ganimals.ipynb
+[I 2021-05-23 17:18:14.166 ServerApp] Saving file at /Deep Learning 3.1 - Ganimals.ipynb
+[I 2021-05-23 17:23:47.189 ServerApp] Saving file at /Deep Learning 3.1 - Ganimals.ipynb
+[I 2021-05-23 17:25:03.433 ServerApp] Saving file at /Deep Learning 3.1 - Ganimals.ipynb
+2021-05-23 17:25:51.589186: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-05-23 17:25:51.589407: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-23 17:25:51.590040: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2080 Super with Max-Q Design computeCapability: 7.5
+coreClock: 1.08GHz coreCount: 48 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 327.88GiB/s
+2021-05-23 17:25:51.590113: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-05-23 17:25:51.590139: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-05-23 17:25:51.590155: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-05-23 17:25:51.590169: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-05-23 17:25:51.590183: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-05-23 17:25:51.590203: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-05-23 17:25:51.590218: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-05-23 17:25:51.590235: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-05-23 17:25:51.590345: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-23 17:25:51.591026: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-23 17:25:51.591556: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-05-23 17:25:51.591818: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-05-23 17:25:51.591960: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-23 17:25:51.592433: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2080 Super with Max-Q Design computeCapability: 7.5
+coreClock: 1.08GHz coreCount: 48 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 327.88GiB/s
+2021-05-23 17:25:51.592463: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-05-23 17:25:51.592480: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-05-23 17:25:51.592494: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-05-23 17:25:51.592507: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-05-23 17:25:51.592521: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-05-23 17:25:51.592534: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-05-23 17:25:51.592547: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-05-23 17:25:51.592561: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-05-23 17:25:51.592603: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-23 17:25:51.593058: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-23 17:25:51.593516: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-05-23 17:25:51.593540: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-05-23 17:25:51.593546: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2021-05-23 17:25:51.593550: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2021-05-23 17:25:51.593624: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-23 17:25:51.594016: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:941] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-23 17:25:51.594558: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7247 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Super with Max-Q Design, pci bus id: 0000:01:00.0, compute capability: 7.5)
+[I 2021-05-23 17:27:03.584 ServerApp] Saving file at /Deep Learning 3.1 - Ganimals.ipynb
+[I 2021-05-23 17:29:03.711 ServerApp] Saving file at /Deep Learning 3.1 - Ganimals.ipynb
+[I 2021-05-23 17:31:03.844 ServerApp] Saving file at /Deep Learning 3.1 - Ganimals.ipynb
+[I 2021-05-23 17:33:03.925 ServerApp] Saving file at /Deep Learning 3.1 - Ganimals.ipynb
+[I 2021-05-23 17:35:04.018 ServerApp] Saving file at /Deep Learning 3.1 - Ganimals.ipynb
+[I 2021-05-23 17:35:08.991 ServerApp] Saving file at /Deep Learning 3.1 - Ganimals.ipynb
+[I 2021-05-23 17:37:09.136 ServerApp] Saving file at /Deep Learning 3.1 - Ganimals.ipynb
+2021-05-23 17:38:14.143941: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+[I 2021-05-24 12:33:10.234 ServerApp] Saving file at /Deep Learning 3.1 - Ganimals.ipynb
+[I 2021-06-02 21:20:38.820 ServerApp] 302 GET / (127.0.0.1) 0.79ms
+[W 2021-06-02 21:20:41.327 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2021-06-02 21:25:29.549 LabApp] 302 GET /lab? (127.0.0.1) 0.79ms
+[W 2021-06-02 21:43:10.863 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2021-06-02 21:43:26.263 ServerApp] Notebook Deep Learning 3.1 - Ganimals.ipynb is not trusted
+[I 2021-06-02 21:45:27.770 ServerApp] Saving file at /Deep Learning 3.1 - Ganimals.ipynb
+[W 2021-06-02 21:45:27.770 ServerApp] Notebook Deep Learning 3.1 - Ganimals.ipynb is not trusted
+[I 2021-06-02 21:51:29.517 ServerApp] Saving file at /Deep Learning 3.1 - Ganimals.ipynb
+[W 2021-06-02 21:51:29.517 ServerApp] Notebook Deep Learning 3.1 - Ganimals.ipynb is not trusted
